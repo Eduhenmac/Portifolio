@@ -10,6 +10,7 @@ import Site from './img/Site.PNG'
 import Basico from './img/Basico.PNG'
 import { ReactComponent as Linkedin } from './img/li-logo.svg'
 import { ReactComponent as Mail } from './img/mail.svg'
+import { ReactComponent as Mail2 } from './img/mail_24dp.svg'
 import { ReactComponent as Call } from './img/call.svg'
 import { ReactComponent as Grad } from './img/gradu.svg'
 import { ReactComponent as Per } from './img/job.svg'
@@ -582,7 +583,7 @@ export default function Portifolio() {
                             </div>
                         </div>
                         <div className='linha'>
-                            <Mail style={{ width: '40px', height: '40px', fill: '#FFF', marginRight: '10px'}}/>
+                            <Mail2 style={{ width: '40px', height: '40px', fill: '#FFF', marginRight: '10px'}}/>
                             <div>
                                 <p className='inter-con'>E-mail:</p>
                                 <p className='inter-info2'>eduhenmachado@gmail.com</p>
@@ -602,6 +603,7 @@ export default function Portifolio() {
                             <div className='arrow-up'>
                                 <Up style={{ width: '35px', height: '35px', fill: '#B9B6AC'}}/>
                             </div>
+                            
                         </button>
                     </div>
 
